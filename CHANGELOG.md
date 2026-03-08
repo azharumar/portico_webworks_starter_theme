@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.4.5] - 2025-03-09
+
+### Removed
+- Customizer/editor integration: block editor style enqueues, GeneratePress typography defaults filter (fixes WSOD)
+
 ## [0.4.4] - 2025-03-09
 
 ### Removed

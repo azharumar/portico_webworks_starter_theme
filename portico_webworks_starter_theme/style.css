@@ -1,0 +1,76 @@
+/*
+ Theme Name:   Portico Webworks Starter Theme
+ Theme URI:    https://porticowebworks.com
+ Description:  Default Portico Webowrks starter theme
+ Author:       Portico Webworks
+ Author URI:   https://porticowebworks.com
+ Template:     generatepress
+ Version:      0.2
+*/
+
+/* ==========================================================================
+   Portico Webworks — Design Tokens
+   ========================================================================== */
+
+:root {
+
+  /* Spacing — base 4px, usage: padding / margin / gap / sizing
+     Convention: --space-{n} = n × 4px                          */
+
+  --space-unit: 0.25rem;
+
+  --space-1:  calc(var(--space-unit) * 1);   /*   4px */
+  --space-2:  calc(var(--space-unit) * 2);   /*   8px */
+  --space-3:  calc(var(--space-unit) * 3);   /*  12px */
+  --space-4:  calc(var(--space-unit) * 4);   /*  16px */
+  --space-5:  calc(var(--space-unit) * 5);   /*  20px */
+  --space-6:  calc(var(--space-unit) * 6);   /*  24px */
+  --space-8:  calc(var(--space-unit) * 8);   /*  32px */
+  --space-10: calc(var(--space-unit) * 10);  /*  40px */
+  --space-12: calc(var(--space-unit) * 12);  /*  48px */
+  --space-16: calc(var(--space-unit) * 16);  /*  64px */
+  --space-20: calc(var(--space-unit) * 20);  /*  80px */
+  --space-24: calc(var(--space-unit) * 24);  /*  96px */
+  --space-32: calc(var(--space-unit) * 32);  /* 128px */
+
+
+  /* Typography — major third scale (×1.25), base 1.25rem (20px) */
+
+  --text-xs:   0.8rem;    /*  13px */
+  --text-sm:   1rem;      /*  16px */
+  --text-base: 1.25rem;   /*  20px */
+  --text-lg:   1.563rem;  /*  25px */
+  --text-xl:   1.953rem;  /*  31px */
+  --text-2xl:  2.441rem;  /*  39px */
+  --text-3xl:  3.052rem;  /*  49px */
+  --text-4xl:  3.815rem;  /*  61px */
+  --text-5xl:  4.768rem;  /*  76px */
+
+
+  /* Width — semantic size names, usage: max-width on layout containers */
+
+  --w-xs:  16rem;   /*  256px — modals, drawers     */
+  --w-sm:  24rem;   /*  384px — cards, small cols   */
+  --w-md:  40rem;   /*  640px — reading column      */
+  --w-lg:  48rem;   /*  768px — tablet breakpoint   */
+  --w-xl:  64rem;   /* 1024px — standard content    */
+  --w-2xl: 80rem;   /* 1280px — wide content        */
+  --w-3xl: 90rem;   /* 1440px — outer container     */
+
+}
+
+/* Remove bottom margin on last paragraph */
+.gb-container p:last-child:last-of-type {
+  margin-bottom: 0px;
+}
+
+.block-editor-block-list__layout .gb-container p:nth-last-child(2) {
+  margin-bottom: 0px;
+}
+
+/* Site Wrapper */
+.site-wrapper {
+  width: 100%;
+  max-width: 1920px;
+  margin-inline: auto;
+}

@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.4.4] - 2025-03-09
+
+### Removed
+- WP admin panel brand skin (admin-style.css and related enqueue hooks)
+
 ## [0.4.3] - 2025-03-09
 
 ### Added

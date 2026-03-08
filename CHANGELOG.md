@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.4.1] - 2025-03-09
+
+### Fixed
+- Release workflow: add `contents: write` permission for asset upload
+- Release workflow: build in temp dir to avoid nested zip structure
+
 ## [0.4] - 2025-03-09
 
 ### Added

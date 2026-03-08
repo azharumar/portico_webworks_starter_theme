@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.4.3] - 2025-03-09
+
+### Added
+- WP admin panel brand skin (admin-style.css): Portico Webworks colors, Inter font, styled sidebar, admin bar, buttons, login page
+
 ## [0.4.2] - 2025-03-09
 
 ### Changed

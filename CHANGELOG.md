@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.4.6] - 2025-03-09
+
+### Added
+- Block editor style enqueues (child theme CSS, Customizer CSS)
+
+### Removed
+- inc/customizer-typography-defaults.json
+
 ## [0.4.5] - 2025-03-09
 
 ### Removed

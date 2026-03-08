@@ -7,13 +7,15 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
 
       - name: Create theme ZIP
         run: |
           THEME_SLUG="portico_webworks_theme"
-          mkdir -p "$THEME_SLUG"
+          mkdir -p "build/$THEME_SLUG"
           rsync -a \
             --exclude='.git' \
             --exclude='.github' \
@@ -27,8 +29,9 @@ jobs:
             --exclude='.idea' \
             --exclude='.vscode' \
             --exclude='*Company Brief*' \
-            ./ "$THEME_SLUG/"
-          zip -r "$THEME_SLUG.zip" "$THEME_SLUG"
+            --exclude='build' \
+            ./ "build/$THEME_SLUG/"
+          cd build && zip -r "../$THEME_SLUG.zip" "$THEME_SLUG"
 
       - name: Upload release asset
         uses: softprops/action-gh-release@v2

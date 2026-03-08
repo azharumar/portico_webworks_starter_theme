@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.4] - 2025-03-09
+
+### Added
+- GitHub Action: release workflow builds `portico_webworks_theme.zip` with correct slug for WP theme uploader (preserves Customizer values on update)
+- Design tokens: line-height (`--leading-*`), letter-spacing (`--tracking-*`)
+
 ## [0.3] - 2025-03-09
 
 ### Changed

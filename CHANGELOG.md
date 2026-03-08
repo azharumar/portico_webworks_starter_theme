@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.4.2] - 2025-03-09
+
+### Changed
+- Test release (minor)
+
 ## [0.4.1] - 2025-03-09
 
 ### Fixed

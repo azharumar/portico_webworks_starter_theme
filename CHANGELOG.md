@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.4.7] - 2025-03-09
+
+### Added
+- style.css scope documentation: global design system classes and CSS variables only; local/component CSS belongs in GenerateBlocks Pro; warns that non-global block/section classes cause issues with GeneratePress + GenerateBlocks
+
 ## [0.4.6] - 2025-03-09
 
 ### Added

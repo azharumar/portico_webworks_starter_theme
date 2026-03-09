@@ -5,8 +5,15 @@
  Author:       Portico Webworks
  Author URI:   https://porticowebworks.com
  Template:     generatepress
- Version:      0.4.6
+ Version:      0.4.7
 */
+
+/* ==========================================================================
+   Scope: Global design system classes and CSS variables only.
+   Local / component CSS → GenerateBlocks Pro (block/element settings).
+   Non-global block/section classes here will cause issues with GeneratePress +
+   GenerateBlocks builds.
+   ========================================================================== */
 
 /* ==========================================================================
    Portico Webworks — Design Tokens
@@ -88,3 +95,5 @@
   max-width: 1920px;
   margin-inline: auto;
 }
+
+

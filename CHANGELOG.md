@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.4.8] - 2025-03-10
+
+### Added
+- `scroll-behavior: smooth` on html
+- `-webkit-overflow-scrolling: touch` on body
+- Radius design tokens (`--radius-xs` through `--radius-full`)
+
+### Changed
+- Design tokens: width moved before typography in `:root`
+
 ## [0.4.7] - 2025-03-09
 
 ### Added

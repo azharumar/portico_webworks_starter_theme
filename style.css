@@ -5,7 +5,7 @@
  Author:       Portico Webworks
  Author URI:   https://porticowebworks.com
  Template:     generatepress
- Version:      0.4.10
+ Version:      0.4.11
 */
 
 /* ==========================================================================
@@ -96,26 +96,6 @@ body {
   --radius-xl: 0.75rem; /*   12px */
   --radius-2xl: 1rem; /*     16px */
   --radius-full: 9999px;
-}
-
-/* Squircles — true superellipse via clip-path. Uses objectBoundingBox so corners
-   scale with the element; works on squares and rectangles without changing dimensions.
-   Caveat: clip-path clips box-shadow. For shadows, wrap the element and put shadow on the wrapper. */
-
-.squircle-sm {
-  clip-path: url('assets/squircle-clips.svg#squircle-sm');
-}
-
-.squircle-md {
-  clip-path: url('assets/squircle-clips.svg#squircle-md');
-}
-
-.squircle-lg {
-  clip-path: url('assets/squircle-clips.svg#squircle-lg');
-}
-
-.squircle-full {
-  clip-path: url('assets/squircle-clips.svg#squircle-full');
 }
 
 /* Remove bottom margin on last paragraph */

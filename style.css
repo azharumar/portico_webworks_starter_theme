@@ -5,7 +5,7 @@
  Author:       Portico Webworks
  Author URI:   https://porticowebworks.com
  Template:     generatepress
- Version:      0.4.9
+ Version:      0.4.10
 */
 
 /* ==========================================================================
@@ -98,23 +98,24 @@ body {
   --radius-full: 9999px;
 }
 
-/* Squircles — true superellipse via clip-path (100×100 viewBox, resolution-independent).
+/* Squircles — true superellipse via clip-path. Uses objectBoundingBox so corners
+   scale with the element; works on squares and rectangles without changing dimensions.
    Caveat: clip-path clips box-shadow. For shadows, wrap the element and put shadow on the wrapper. */
 
 .squircle-sm {
-  clip-path: path('M 0,15 C 0,4 4,0 15,0 L 85,0 C 96,0 100,4 100,15 L 100,85 C 100,96 96,100 85,100 L 15,100 C 4,100 0,96 0,85 Z');
+  clip-path: url('assets/squircle-clips.svg#squircle-sm');
 }
 
 .squircle-md {
-  clip-path: path('M 0,25 C 0,6 6,0 25,0 L 75,0 C 94,0 100,6 100,25 L 100,75 C 100,94 94,100 75,100 L 25,100 C 6,100 0,94 0,75 Z');
+  clip-path: url('assets/squircle-clips.svg#squircle-md');
 }
 
 .squircle-lg {
-  clip-path: path('M 0,35 C 0,8 8,0 35,0 L 65,0 C 92,0 100,8 100,35 L 100,65 C 100,92 92,100 65,100 L 35,100 C 8,100 0,92 0,65 Z');
+  clip-path: url('assets/squircle-clips.svg#squircle-lg');
 }
 
 .squircle-full {
-  clip-path: path('M 50,0 A 50,50 0 0 1 100,50 A 50,50 0 0 1 50,100 A 50,50 0 0 1 0,50 A 50,50 0 0 1 50,0');
+  clip-path: url('assets/squircle-clips.svg#squircle-full');
 }
 
 /* Remove bottom margin on last paragraph */

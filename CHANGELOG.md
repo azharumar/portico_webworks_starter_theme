@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.4.12] - 2026-04-07
+
+### Added
+- Developer reference doc (`DEVELOPERS.md`) with initial website building blocks section:
+  - Site Header
+  - Site Footer
+- Additional spacing tokens (`--space-7`, `--space-9`, `--space-14`, `--space-18`, `--space-28`, `--space-36`, `--space-40`, `--space-48`)
+- Additional radius tokens (`--radius-3xl`, `--radius-4xl`)
+
 ## [0.4.8] - 2025-03-10
 
 ### Added

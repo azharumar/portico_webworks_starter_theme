@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.4.14] - 2026-04-07
+
+### Changed
+- `.section-wrap` now removes horizontal padding at `min-width: 1024px` to align with desktop container width
+
 ## [0.4.13] - 2026-04-07
 
 ### Added

@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.13] - 2026-04-07
+
+### Added
+- Section spacing utilities: `.section-tight`, `.section-normal`, `.section-relaxed`, `.section-loose`
+- Section wrap utility: `.section-wrap`
+- Gap utilities: `.gap-tight`, `.gap-normal`, `.gap-relaxed`
+
 ## [0.4.12] - 2026-04-07
 
 ### Added

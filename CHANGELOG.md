@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.4.19] - 2026-04-15
+
+### Changed
+- Simplified radius token set to `xs`, `sm`, `md`, `lg`, `xl`, `full`
+- Rebalanced radius scale and set `--radius-xl` to `2rem`
+
 ## [0.4.18] - 2026-04-15
 
 ### Removed

@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.4.17] - 2026-04-15
+
+### Added
+- Gap tokens (`--gap-1` to `--gap-3`) and section padding tokens (`--padding-1` to `--padding-4`)
+
+### Changed
+- Increased `--padding-4` ceiling to `14rem` for loose section spacing
+
 ## [0.4.16] - 2026-04-15
 
 ### Removed

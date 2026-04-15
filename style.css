@@ -5,7 +5,7 @@
  Author:       Portico Webworks
  Author URI:   https://porticowebworks.com
  Template:     generatepress
- Version:      0.4.16
+ Version:      0.4.17
 */
 
 /* ==========================================================================
@@ -54,6 +54,17 @@ body {
   --space-36: calc(var(--space-unit) * 36); /* 144px */
   --space-40: calc(var(--space-unit) * 40); /* 160px */
   --space-48: calc(var(--space-unit) * 48); /* 192px */
+
+  --gap-1: var(--space-6); /* 24px — tight */
+  --gap-2: var(--space-10); /* 40px — normal */
+  --gap-3: var(--space-16); /* 64px — relaxed */
+
+  --padding-1: clamp(4rem, 6vw, 6rem); /* section — tight */
+  --padding-2: clamp(6rem, 8vw, 8rem); /* section — normal */
+  --padding-3: clamp(8rem, 10vw, 10rem); /* section — relaxed */
+  --padding-4: clamp(10rem, 15vw, 14rem); /* section — loose */
+
+  /* horizontal padding: clamp(1.75rem, 5vw, 4rem) — zero on desktop */
 
   /* Width — semantic size names, usage: max-width on layout containers */
 

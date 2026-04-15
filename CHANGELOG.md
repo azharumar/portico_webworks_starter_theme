@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.4.18] - 2026-04-15
+
+### Removed
+- Theme activation automation for GeneratePress Customizer defaults, automatic Header Menu creation/assignment, and Homepage/Blog static front-page setup
+
 ## [0.4.17] - 2026-04-15
 
 ### Added

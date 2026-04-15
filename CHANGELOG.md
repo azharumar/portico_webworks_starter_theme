@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.4.16] - 2026-04-15
+
+### Removed
+- Bundled `gb-global-styles.xml` (GenerateBlocks global styles for section rhythm, horizontal wrap, and gap utilities)
+
 ## [0.4.15] - 2026-04-15
 
 ### Added

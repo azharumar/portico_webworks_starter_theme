@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.4.15] - 2026-04-15
+
+### Added
+- One-time theme activation: GeneratePress Customizer defaults (1024px container, one-container, text alignment, no sidebars; smooth scroll when GP Premium is active), static front page (Homepage + Blog pages), empty **Header Menu** assigned to primary location
+- One-time import of GenerateBlocks global styles from bundled `gb-global-styles.xml` into `gblocks_styles` posts
+
+### Removed
+- Section rhythm (`.section-*`), `.section-wrap`, and gap utilities (`.gap-*`) from `style.css` (prefer block-level / GenerateBlocks styling)
+
 ## [0.4.14] - 2026-04-07
 
 ### Changed
